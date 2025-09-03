@@ -326,10 +326,103 @@ Feature: OpenApplication
     Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
     Then Wait 2 seconds
 
+  @BasicTiklamalarAndroidFail2
+  Scenario: BasicTiklamalarAndroidFail2
+    Given Wait 5 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_campaignsadsadsad" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
 
+
+  @BasicTiklamalarAndroidFail3
+  Scenario: BasicTiklamalarAndroidFail3
+    Given Wait 5 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_campaignsadsadsad" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_campaign" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_trademarks" is clicked
+    Then Wait 2 seconds
+    Then Element with id "com.gratis.android:id/nav_graph_categories" is clicked
 
   @BasicTiklamalarIOSFail
-  Scenario: BasicTiklamalarIOS02
+  Scenario: BasicTiklamalarIOSFail
+    Given Wait 5 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalarsadsadsad']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
+    Then Wait 2 seconds
+
+  @BasicTiklamalarIOSFail2
+  Scenario: BasicTiklamalarIOSFail2
+    Given Wait 5 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalarsadsadsad']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Then Wait 2 seconds
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
+    Then Wait 2 seconds
+
+  @BasicTiklamalarIOSFail3
+  Scenario: BasicTiklamalarIOSFail3
     Given Wait 5 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Markalar']" is clicked
     Then Wait 2 seconds
