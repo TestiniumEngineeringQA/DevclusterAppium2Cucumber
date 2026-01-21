@@ -6,8 +6,6 @@ Feature: OpenApplication
     Then Element with xpath "//XCUIElementTypeApplication[@name='Gratis']/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther" is clicked
     Then Wait 2 seconds
 
-    Then Wait 2 seconds
-
   @BasicTiklamalarIOS02
   Scenario: BasicTiklamalarIOS02
     Given Wait 15 seconds
@@ -90,7 +88,6 @@ Feature: OpenApplication
     Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
     Then Wait 2 seconds
     Then Element with xpath "//XCUIElementTypeButton[@name='Kampanyalar']" is clicked
-    Then Wait 2 seconds
     Then Wait 2 seconds
 
   @BasicTiklamalarIOS05
