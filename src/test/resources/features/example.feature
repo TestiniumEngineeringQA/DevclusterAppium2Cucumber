@@ -139,7 +139,7 @@ Feature: OpenApplication
   @BasicTiklamalarAndroid01
   Scenario: BasicTiklamalarAndroid01
     Given Wait 15 seconds
-    Then Element with xpath "//*[contains(@text, 'Kategoriler')]" is clicked
+    Then Element with xpath "com.gratis.android:id/nav_graph_categories" is clicked
     Then Wait 2 seconds
 
   @BasicTiklamalarAndroid02
