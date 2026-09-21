@@ -141,7 +141,7 @@ Feature: OpenApplication
   @BasicTiklamalarAndroid01
   Scenario: BasicTiklamalarAndroid01
     Given Wait 30 seconds
-    Then Element with xpath "//*[contains(@resource-id, 'android:id/`splashUpdatePopup`')]" is clicked
+    Then Element with xpath "//*[contains(@text, 'Güncel Kalın')]" is clicked
     Then Wait 2 seconds
 
 
