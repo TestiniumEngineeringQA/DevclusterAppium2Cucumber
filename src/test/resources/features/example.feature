@@ -3,7 +3,7 @@ Feature: OpenApplication
   @BasicTiklamalarIOS01
   Scenario: BasicTiklamalarIOS01
     Given Wait 45 seconds
-    Then Element with xpath "//AppiumAUT[1]/XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTabBar[1]/XCUIElementTypeButton[5]" is clicked
+    Then Element with xpath "//XCUIElementTypeButton[contains(@name, 'mainTabCategoriesTabBtn')]" is clicked
     Then Wait 2 seconds
 
   @BasicTiklamalarIOS02
