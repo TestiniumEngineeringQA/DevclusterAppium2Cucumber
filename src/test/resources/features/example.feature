@@ -441,3 +441,9 @@ Feature: OpenApplication
     Given Wait 1020 seconds
     Then Element with xpath "//*[contains(@text, 'Kategoriler')]" is clicked
     Then Wait 2 seconds
+    
+    
+  @BasicTiklamalarIOS111
+  Scenario: BasicTiklamalarIOS111
+    Given Wait 45 seconds
+    Then Wait 2 seconds
