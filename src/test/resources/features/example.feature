@@ -3,7 +3,7 @@ Feature: OpenApplication
   @BasicTiklamalarIOS01
   Scenario: BasicTiklamalarIOS01
     Given Wait 30 seconds
-    Then Element with xpath "//XCUIElementTypeButton[@name='GÜNCELLE']" is clicked
+    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
     Then Wait 2 seconds
 
   @BasicTiklamalarIOS02
@@ -140,8 +140,8 @@ Feature: OpenApplication
 
   @BasicTiklamalarAndroid01
   Scenario: BasicTiklamalarAndroid01
-    Given Wait 15 seconds
-    Then Element with xpath "//*[contains(@text, 'Kategoriler')]" is clicked
+    Given Wait 30 seconds
+    Then Element with xpath "//*[contains(@resource-id, 'android:id/`splashUpdatePopup`')]" is clicked
     Then Wait 2 seconds
 
 
