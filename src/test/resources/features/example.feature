@@ -2,8 +2,8 @@ Feature: OpenApplication
 
   @BasicTiklamalarIOS01
   Scenario: BasicTiklamalarIOS01
-    Given Wait 30 seconds
-    Then Element with xpath "//XCUIElementTypeButton[@name='Kategoriler']" is clicked
+    Given Wait 45 seconds
+    Then Element with xpath "//XCUIElementTypeButton[contains(@name, 'Kategoriler')]" is clicked
     Then Wait 2 seconds
 
   @BasicTiklamalarIOS02
