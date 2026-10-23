@@ -70,7 +70,7 @@ public class Steps {
                 //overridden.setCapability(UDID, "YOUR_UDID");
                 //overridden.setCapability(APPIUM_AUTOMATION_NAME, "YOUR_AUTOMATION_NAME");
                 overridden.setCapability(APPIUM_BUNDLE_ID, "YOUR_BUNDLE_ID");
-                //overridden.setCapability(APPIUM_AUTO_ACCEPT_ALERTS, true);
+                overridden.setCapability("autoAcceptAlerts", true);
                 driver = new TestiniumIOSDriver(hubUrl, overridden);
 
 
