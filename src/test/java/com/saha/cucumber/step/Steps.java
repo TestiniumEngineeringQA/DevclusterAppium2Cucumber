@@ -28,7 +28,6 @@ import java.util.concurrent.TimeUnit;
 import static com.testinium.util.Constants.CapabilityConstants.*;
 //import static com.testinium.util.Constants.PLATFORM_NAME;
 
-
 public class Steps {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
